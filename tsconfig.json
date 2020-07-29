@@ -2,8 +2,10 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "allowJs": true,
-    "module": "commonjs",
+    "module": "esnext", // https://basarat.gitbook.io/typescript/project/dynamic-import-expressions
     "target": "es5",
+    "lib": ["dom", "es5", "scripthost", "es2015.promise"],
+    "moduleResolution": "node",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,

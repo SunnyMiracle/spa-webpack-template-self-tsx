@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "baseUrl": "./src",
+    "jsx": "react"
+  },
+  "path": {
+    "common/*": ["./src/common/*"],
+    "page/*": ["./src/page/*"]
+  },
+  "include": [
+    "./common.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "**/*.json",
+    "**/*.jsx"
+  ]
+}
